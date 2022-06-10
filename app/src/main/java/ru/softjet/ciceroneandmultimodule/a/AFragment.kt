@@ -31,6 +31,7 @@ class AFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         binding.toFeature.setOnClickListener { viewModel.navToFeature() }
+        binding.toFeature2.setOnClickListener { viewModel.navToFeature2() }
     }
 
     override fun onDestroyView() {

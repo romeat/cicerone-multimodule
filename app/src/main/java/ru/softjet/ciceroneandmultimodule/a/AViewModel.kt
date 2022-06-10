@@ -14,4 +14,8 @@ class AViewModel @Inject constructor(
     fun navToFeature() {
         baseRouter.navigateTo(Screens.featureFragment())
     }
+
+    fun navToFeature2() {
+        baseRouter.navigateTo(Screens.feature2Fragment())
+    }
 }
